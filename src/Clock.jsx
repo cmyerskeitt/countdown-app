@@ -13,6 +13,10 @@ class Clock extends Component {
         }
     }
 
+    // getTimeUntil(deadline){
+    //     const time = Date.parse(deadline) - Date.parse(new Date())
+    // }
+
     render (){
         return (
         <div>
