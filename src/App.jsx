@@ -24,12 +24,12 @@ class App extends Component {
     render () {
         return (
             <div className="App" style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
-            <div className="App-title"> Countdown to {this.state.deadline} </div>
+            <div className="App-title"> <b>Countdown to {this.state.deadline}</b> </div>
             <Clock deadline={this.state.deadline}/>
             <div>
                 <input type= "text" placeholder='Enter New Date' onChange={event => this.setState({newDeadline: event.target.value})}/>
                 <br/>
-                <button type="submit" class="btn btn-primary btn-lg" onClick={()=> this.changeDeadline()}> Submit</button>
+                <button type="submit" class="btn btn btn-warning btn-lg" onClick={()=> this.changeDeadline()}> Submit</button>
             </div>
             </div>
         )
