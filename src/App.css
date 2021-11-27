@@ -1,7 +1,10 @@
 .App {
     text-align: center;
     font-size: 35px;
-    margin-top: 20%;
+    color: darkorange;
+    background-color: white;
+    padding: 20%;
+
 }
 
 .App-title{
@@ -12,3 +15,4 @@
     display: inline;    
     margin: 10px;
 }
+
