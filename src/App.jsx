@@ -16,9 +16,6 @@ class App extends Component {
         this.setState({deadline: this.state.newDeadline})
     }
 
-    convertDeadline(){
-
-    }
 
 
     render () {
